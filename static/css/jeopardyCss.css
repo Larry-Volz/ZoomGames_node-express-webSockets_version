@@ -1,0 +1,43 @@
+/* table { width: inherit !important; } */
+
+body {
+    background-color: black;
+    cursor: default;
+}
+
+#spinner {
+    width: 100px;
+    height: 100px;
+}
+#jeopardy-table {
+    width: 100%;
+}
+
+#jeopardy-table th {
+    color: white;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.jeop-table td, .jeop-thead {
+    color: yellow;
+    font-size: .8rem;
+    text-align: center;
+    width: 16%;
+}
+
+.jeop-thead, .jeop-th {
+    font-weight: bold;
+    font-size: .9rem;
+}
+.modal:nth-of-type(even) {
+    z-index: 1052 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1051 !important;
+}
+
+
+ .jeop-table td, .point-btn, .player-btn {
+    cursor: pointer;
+  }

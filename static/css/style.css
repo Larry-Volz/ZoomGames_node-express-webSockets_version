@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    background-color: #27A745;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.5rem;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #017BFB;
+}
+
+.zoom {
+    font-size: 4rem;
+}
+.usp {
+    font-size: 1rem;
+
+}
+
+.card-text {
+    text-align: center;
+}
