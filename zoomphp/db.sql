@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- 数据库： `awesome_zoom`
+-- 数据库： `thezoomgames`
 --
-CREATE DATABASE IF NOT EXISTS `awesome_zoom` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
-USE `awesome_zoom`;
+CREATE DATABASE IF NOT EXISTS `thezoomgames` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `thezoomgames`;
 
 -- --------------------------------------------------------
 
