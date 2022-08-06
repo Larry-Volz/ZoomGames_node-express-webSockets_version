@@ -1,0 +1,48 @@
+{
+    "name": "bacart/guzzle-client",
+    "description": "Bacart GuzzleHTTP client",
+    "type": "library",
+    "keywords": [
+        "php",
+        "guzzle",
+        "bacart"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "bacart/common": "^0.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "psr/cache": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.10",
+        "symfony/dom-crawler": "4.2.*",
+        "wa72/htmlpagedom": "^1.3"
+    },
+    "suggest": {
+        "phpstan/phpstan": "PHPStan - PHP Static Analysis Tool",
+        "symfony/dom-crawler": "The DomCrawler component eases DOM navigation for HTML and XML documents.",
+        "wa72/htmlpagedom": "PHP implementation of the jQuery DOM manipulation API for HTML documents"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Bacart\\GuzzleClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Bacart",
+            "email": "alex@bacart.net"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.2-dev"
+        }
+    }
+}
