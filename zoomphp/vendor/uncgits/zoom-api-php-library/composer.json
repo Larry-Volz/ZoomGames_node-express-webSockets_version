@@ -1,0 +1,36 @@
+{
+    "name": "uncgits/zoom-api-php-library",
+    "type": "library",
+    "description": "PHP Library used to interact with the Zoom API for UNCG",
+    "keywords": [
+        "uncg",
+        "uncgits",
+        "zoom",
+        "api",
+        "php"
+    ],
+    "license": "BSD-3-Clause",
+    "homepage": "https://bitbucket.org/uncgits/zoom-api-php-library",
+    "authors": [
+        {
+            "name": "UNCG Laravel Developers",
+            "email": "its-laravel-devs-l@uncg.edu",
+            "homepage": "http://its.uncg.edu",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "nesbot/carbon": ">=1.22.0",
+        "firebase/php-jwt": "^5.1"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "6.* or 7.* recommended to make HTTP request with Guzzle adapter"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uncgits\\ZoomApi\\": "src/"
+        }
+    }
+}
